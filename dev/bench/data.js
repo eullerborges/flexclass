@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1601743611389,
+  "lastUpdate": 1601743948773,
   "repoUrl": "https://github.com/eullerborges/flexclass",
   "entries": {
     "Catch2 Benchmark": [
@@ -158,6 +158,86 @@ window.BENCHMARK_DATA = {
             "name": "Traverse DAG with fc",
             "value": 3.36666,
             "range": "± 439.191",
+            "unit": "ms",
+            "extra": "100 samples\n1 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "eullerborges@opacium.com",
+            "name": "Euller Borges",
+            "username": "eullerborges"
+          },
+          "committer": {
+            "email": "eullerborges@opacium.com",
+            "name": "Euller Borges",
+            "username": "eullerborges"
+          },
+          "distinct": true,
+          "id": "cccb0c30f6d5c7498024645f358d35d8a556da85",
+          "message": "Implementing benchmark regression",
+          "timestamp": "2020-10-03T13:49:40-03:00",
+          "tree_id": "124a3aaa97a3d0bb2bd7c2f5266dd2e519e1b2d9",
+          "url": "https://github.com/eullerborges/flexclass/commit/cccb0c30f6d5c7498024645f358d35d8a556da85"
+        },
+        "date": 1601743948110,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Sum all ids on nofc graph",
+            "value": 28.9334,
+            "range": "± 4.48405",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          },
+          {
+            "name": "Sum all ids on withfc graph",
+            "value": 25.6273,
+            "range": "± 4.51631",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          },
+          {
+            "name": "Sum all link ptrs on nofc graph",
+            "value": 29.3859,
+            "range": "± 36.343",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          },
+          {
+            "name": "Sum all link ptrs on withfc graph",
+            "value": 3.94345,
+            "range": "± 932.355",
+            "unit": "us",
+            "extra": "100 samples\n10 iterations"
+          },
+          {
+            "name": "Create DAG no fc",
+            "value": 2.70178,
+            "range": "± 354.502",
+            "unit": "ms",
+            "extra": "100 samples\n1 iterations"
+          },
+          {
+            "name": "Create DAG with fc",
+            "value": 1.92566,
+            "range": "± 235.006",
+            "unit": "ms",
+            "extra": "100 samples\n1 iterations"
+          },
+          {
+            "name": "Traverse DAG no fc",
+            "value": 3.37902,
+            "range": "± 320.12",
+            "unit": "ms",
+            "extra": "100 samples\n1 iterations"
+          },
+          {
+            "name": "Traverse DAG with fc",
+            "value": 3.04614,
+            "range": "± 299.521",
             "unit": "ms",
             "extra": "100 samples\n1 iterations"
           }
